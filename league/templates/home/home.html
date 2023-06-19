@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+  {% load static %}
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WE OFFER!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  </head>
+  <body class="bg-secondary">
+    <div class="container bg-body-secondary">
+    <nav class="navbar navbar-expand-lg bg-body-secondary">
+        <div class="container-fluid">
+          <h1><a class="navbar-brand" href="#">WEOffer!</a></h1>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">New offers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">about us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">contact us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  industries
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Tech</a></li>
+                  <li><a class="dropdown-item" href="#">Education</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Bussines</a></li>
+                </ul>
+              </li>
+            </ul><button type="button" class="btn btn-secondary position-relative">
+                New offers
+                <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+                  <span class="visually-hidden">New alerts</span>
+                </span>
+              </button>
+          </div>
+        </div>
+      </nav>
+    
+    
+      <!-- the carousel starts here -->
+
+
+      <div id="carouselExampleCaptions" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" >
+            <img src="{% static 'images/design1.png' %}" class="d-block w-100 img-fluid" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>We are open</h5>
+              <p>We have opened our shop from this month.</p>
+            </div>
+          </div>
+          <div class="carousel-item" >
+            <img src="{% static 'images/design2.png' %}" class="d-block w-100 img-fluid" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>March advert</h5>
+              <p>The advertisement of march month and its offers.</p>
+            </div>
+          </div>
+          <div class="carousel-item" >
+            <img src="{% static 'images/design3.png' %}" class="d-block w-100 img-fluid" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>We are closed </h5>
+              <p>We work from monday to friday welcome all.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <!-- divider message -->
+    <div class="container m-3 bg-body-secondary"></div> 
+    <div class="card text-center bg-body-secondary">
+        <div class="card-body">
+          <h5 class="card-title">Special offer to all of you</h5>
+          <p class="card-text">With support all this time we were able to establish our brand and now we give out an offer to all who want to advertise with us.</p>
+          <a href="#" class="btn btn-secondary">Advartise with us</a>
+        </div>
+      </div>
+
+      <div class="container m-3 bg-body-secondary"></div>
+    
+      <!-- new offers -->
+      <div class="card text-center">
+        <div class="card-header bg-body-secondary">
+          <strong>NEW OFFERS</strong>
+        </div>
+        <div class="container m-3"></div>
+        <div class="card-body">
+      <div class="container m-3"></div>
+      <div class="container text-center">
+        <div class="row align-items-center">
+          <div class="col">
+            <div class="card bg-body-secondary" style="width: 18rem;">
+                <img src="{% static 'images/design4.png' %}" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Cocacola advert</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-secondary">Go somewhere</a>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card bg-body-secondary" style="width: 18rem;">
+                <img src="{% static 'images/design5.png' %}" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Coseke hiring</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-secondary">Go somewhere</a>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card bg-body-secondary" style="width: 18rem;">
+                <img src="{% static 'images/design6.png' %}" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Pepsi video</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-secondary">Go somewhere</a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+
+      <!-- past news -->
+      
+      <div class="container m-3 bg-body-secondary"></div>
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            
+      <div class="card text-center">
+        <div class="card-header bg-body-secondary">
+          <strong> Past news</strong>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-secondary">Go somewhere</a>
+        </div>
+        <div class="card-footer text-body-secondary">
+          2 days ago
+        </div>
+      </div>
+          </div>
+          <div class="carousel-item">
+            
+      <div class="card text-center">
+        <div class="card-header bg-body-secondary">
+          <strong> Past news</strong>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-secondary">Go somewhere</a>
+        </div>
+        <div class="card-footer text-body-secondary">
+          2 days ago
+        </div>
+      </div>
+          </div>
+          <div class="carousel-item">
+            
+      <div class="card text-center">
+        <div class="card-header bg-body-secondary">
+          <strong> Past news</strong>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-secondary">Go somewhere</a>
+        </div>
+        <div class="card-footer text-body-secondary">
+          2 days ago
+        </div>
+      </div>
+          </div>
+        </div>
+      </div>
+
+
+<!-- about us -->
+<div class="container m-3 bg-body-secondary"></div>
+    
+      <div class="card text-center">
+        <div class="card-header bg-body-secondary">
+          <strong>ABOUT US</strong>
+        </div>
+        <div class="card-body">
+        
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              What we do
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body bg-body-secondary">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Why us?
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body bg-body-secondary">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              How we do it
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body bg-body-secondary">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div> 
+
+
+      <div class="container m-3 bg-body-secondary"></div>
+
+      <!-- contact us -->
+
+      <div class="card text-center bg-body-secondary">
+        <div class="card-header">
+          <strong>Contact US</strong>
+        </div>
+        <div class="card-body">
+          <div class="container bg-body-secondary">
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="enter your email address">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Enter your text here</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="enter your text here" rows="3"></textarea>
+      </div>
+      <a href="#" class="btn btn-secondary">Send email</a>
+      </div>
+      </div>
+      </div>
+
+      <!-- footer -->
+
+      <div class="container m-3 bg-body-secondary"></div>
+
+      <div class="container text-center">
+        <div class="row align-items-center">
+          <div class="col">
+            <div class="card text-center">
+            <div class="card-body">
+              <div class="row align-items-center">
+                <div class="col">
+                  <h1 class="text-start">WEOffer!</h1>
+                  <p class="text-start">This is the third item's accordion body. Nothing more exciting happening here in terms content.</p>
+                    <p class="text-start">But just filling up the space to make it look, at least at first glance, a bit more representative of.</p> 
+                  </div>
+                <div class="col text-start">
+                <table class="table">
+                  <tbody>
+                    <thead><h4> Latest Posts</h4></thead>
+                    <tr>
+                      <td><a class="nav-link" href="#">@mdo</a></td>
+                    </tr>
+                    <tr>
+                      <td><a class="nav-link" href="#">@fat</a></td>
+                    </tr>
+                    <tr>
+                      <td><a class="nav-link" href="#">@twitter</a></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              </div>
+            </div> 
+            </div> 
+          </div>
+          <div class="col"> 
+          <div class="card text-center">
+              <div class="card-body">
+                <h5 class="card-title">Subscribe to our newsletter</h5>
+                <div class="mb-3">
+                    <label for="formGroupExampleInput" class="form-label">Enter your email</label>
+                    <input type="email" class="form-control" id="formGroupExampleInput" placeholder="Enter your email">
+                  </div>
+                <a href="#" class="btn btn-secondary">Subscribe</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- down footer -->
+
+      <div class="container-fluid text-center m-3">
+        <strong>made by Brian Benedict Njau 2023</strong>
+      </div>
+    </div>  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>
